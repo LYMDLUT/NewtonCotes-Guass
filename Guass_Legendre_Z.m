@@ -40,4 +40,9 @@ for i=1:1:N
     end
     Result2(i)=int(b(x),x,-1,1)/a(i);%高斯系数公式
 end
+% Result1=vpa(Result1,20);
+% Result2=vpa(Result2,20);
+% for i =1:length(Result1) 
+% fprintf('%d:%.16f\n',i,Result1(i))
+% fprintf('%d:%.16f\n',i,Result2(i))
 end
